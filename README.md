@@ -16,15 +16,19 @@ The design emphasizes **data quality, reproducibility, and clear separation of c
 
 ## 📁 Project Structure
 medallion-etl-data-cleaning-pipeline/
+
 README.md
+
 notebooks/
 - bronze_ingestion.ipynb # Raw data ingestion
 - silver_cleaning.ipynb # Data cleaning & validation
 - gold_transformation.ipynb # Analytics-ready outputs
+  
 data/
 - bronze/
 - silver/
 - gold/
+  
 src/
 - etl_utils.py # Reusable transformation utilities
 - figures/ # Data quality checks & summary visuals
